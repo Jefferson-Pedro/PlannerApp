@@ -53,62 +53,6 @@ public class Trip {
 		this.ownerEmail = data.ownerEmail();
 	}
 
-	public UUID getId() {
-		return id;
-	}
-
-	public void setId(UUID id) {
-		this.id = id;
-	}
-
-	public String getDestination() {
-		return destination;
-	}
-
-	public void setDestination(String destination) {
-		this.destination = destination;
-	}
-
-	public LocalDateTime getStartAt() {
-		return startAt;
-	}
-
-	public void setStartAt(LocalDateTime startAt) {
-		this.startAt = startAt;
-	}
-
-	public LocalDateTime getEndAt() {
-		return endAt;
-	}
-
-	public void setEndAt(LocalDateTime endAt) {
-		this.endAt = endAt;
-	}
-
-	public Boolean getIsConfirmed() {
-		return isConfirmed;
-	}
-
-	public void setIsConfirmed(Boolean isConfirmed) {
-		this.isConfirmed = isConfirmed;
-	}
-
-	public String getOwnerName() {
-		return ownerName;
-	}
-
-	public void setOwnerName(String ownerName) {
-		this.ownerName = ownerName;
-	}
-
-	public String getOwnerEmail() {
-		return ownerEmail;
-	}
-
-	public void setOwnerEmail(String ownerEmail) {
-		this.ownerEmail = ownerEmail;
-	}
-
 	@Override
 	public String toString() {
 		return "Trip [id=" + id + ", destination=" + destination + ", startAt=" + startAt + ", endAt=" + endAt
